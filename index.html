@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video Page</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#1e2353;
+    color:#111;
+}
+
+/* Top Photo */
+.photo-section{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    padding:40px 20px;
+}
+
+.photo-section img{
+    width:60%;
+    max-width:350px;
+    min-width:180px;
+    height:auto;
+    display:block;
+    border-radius:20px;
+}
+
+/* Divider */
+.divider{
+    width:90%;
+    margin:20px auto 40px;
+    border:none;
+    border-top:2px solid #ddd;
+}
+
+/* Video */
+.video-section{
+    width:100%;
+    padding:0 20px 50px;
+}
+
+.video-section video{
+    width:100%;
+    max-width:1200px;
+    display:block;
+    margin:auto;
+    border-radius:8px;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    padding:30px 20px;
+    border-top:1px solid #ddd;
+    font-size:14px;
+    color:#555;
+}
+#none {
+    font-family: 'Creepster', cursive, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.0em;
+    box-shadow: 2px 2px 5px rgba(104, 11, 11, 0.8);
+    color: white;
+    margin: 20px auto;
+    text-shadow: 2px 2px 4px rgba(249, 172, 172, 0.5);
+}
+</style>
+</head>
+
+<body>
+
+<!-- Photo -->
+<section class="photo-section">
+    <img src="abhishekk.png" alt="Photo">
+</section>
+<p id="none">Since you stopped me flying, get ready!! 
+    coz ab main <strong>GOLI MAARDUNGA</strong>!<br>or 
+    Just see the video below,<br> hehe... Enjoy🦸‍♂️</p>
+<!-- Line -->
+<hr class="divider">
+
+<!-- Video -->
+<section class="video-section">
+    <video controls style="width:100%; height:auto;">
+        <source src="work.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</section>
+
+<!-- Footer -->
+<footer>
+    If youre reading this then congo you've found one of my sorted easter egges or 
+    references, maine aur bhi references all over the website daale hai including some videos, photos and so...
+    try clicking and reloading every possible button and pages for more content, aur agar koi suggestion ho then contact toh koi bhi kar sakta hai coz jo bhi yaha tak pahuncha wo batchmate
+   hi hoga{else my other social media handles are on the main page}     -<i>ABHIGYAN KUMAR</i>
+</footer>
+
+<script>
+// Optional: set video volume to maximum when page loads
+document.addEventListener("DOMContentLoaded", () => {
+    const video = document.querySelector("video");
+    video.volume = 1;
+});
+</script>
+
+</body>
+</html>
